@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy hungry</title>
+    
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header row">
+            <div class="col-md-3">
+                <img src="logo.png" width="50px"/>
+            </div>
+            <div class="col-md-9">
+                <ul class="nav">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Recipes</a></li>
+                    <li><a>Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="searchbox">
+            <div class="row">
+                <div class="col-md-5">
+                    <input type="text" id="foodsearch" class="form-control"
+                            placeholder="Enter a food item ..."
+                            >
+                </div>
+                <div class="col-md-3">
+                    <button type="button" class="btn btn-danger"
+                            id="search_button"
+                            onclick="search_food()">Search</button>
+                </div>
+            </div>
+        </div>
+        <br/>
+                
+        <div id="mealDetail">
+
+        </div>
+        <div id="mealIngredients">
+
+        </div>
+        <div id="meals">
+    
+    
+        </div>
+    </div>
+
+    
+    <script src="hungry.js"></script>
+</body>
+</html>

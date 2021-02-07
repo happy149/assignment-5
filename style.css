@@ -1,0 +1,40 @@
+.header .nav{float: right; }
+.nav li{ float: left; margin-right: 30px; list-style-type: none;}
+.header{clear: both;}
+body {
+    background-color: white;
+    background-size: cover;
+    height: 100vh;
+}
+
+.searchbox{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#meals{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.meal{
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.meal img{
+    width: 250px;
+}
+
+.meal-name{
+    font-size: 45px;
+    color: rgb(9, 184, 155);
+}
+
+#mealDetail img{
+    width: 200px;
+}
